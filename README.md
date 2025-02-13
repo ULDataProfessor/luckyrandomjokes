@@ -1,16 +1,12 @@
 # luckyrandomjokes
+A simple web application that generates random lottery numbers and a joke on each page reload. The app is built using Flask for the backend, Bootstrap for styling, and includes dynamic content rendering.
 
-Here is your `README.md` file in markdown format:
-
-```markdown
 # Lottery & Jokes Web App
 
 ## Overview
-
 This is a simple web application that generates random lottery numbers and a joke on each page reload. The app is built using Flask for the backend, Bootstrap for styling, and includes dynamic content rendering.
 
 ## Features
-
 - Generates a set of random lottery numbers.
 - Displays a random joke.
 - Uses Flask as the web framework.
@@ -19,7 +15,7 @@ This is a simple web application that generates random lottery numbers and a jok
 
 ## Project Structure
 
-```
+
 📦 Project Root
 ├── 📄 main.py         # Flask application logic
 ├── 📂 templates
@@ -27,43 +23,35 @@ This is a simple web application that generates random lottery numbers and a jok
 ├── 📂 static
 │   ├── 📄 styles.css  # Custom styling
 └── 📄 README.md       # Documentation
-```
 
 ## Installation & Setup
-
 ### Prerequisites
 
 Ensure you have Python installed (preferably Python 3.7+).
 
 ### Steps
-
 1. Clone the repository:
-   ```sh
    git clone <repository-url>
    cd <project-directory>
-   ```
+
 
 2. Create a virtual environment (optional but recommended):
-   ```sh
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate     # On Windows
-   ```
+
 
 3. Install dependencies:
-   ```sh
    pip install flask
-   ```
+
 
 4. Run the Flask application:
-   ```sh
    python main.py
-   ```
+
 
 5. Open a web browser and visit:
-   ```
    http://127.0.0.1:5000/
-   ```
+
 
 ## File Details
 
