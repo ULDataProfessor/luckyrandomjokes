@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lottery-box {
+    margin: 20px 0;
+}
+
+.lottery-number {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: #ff9800;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.joke-text {
+    font-size: 20px;
+    font-style: italic;
+}
