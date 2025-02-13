@@ -15,7 +15,7 @@ This is a simple web application that generates random lottery numbers and a jok
 
 ## Project Structure
 
-
+'''
 📦 Project Root
 ├── 📄 main.py         # Flask application logic
 ├── 📂 templates
@@ -23,6 +23,7 @@ This is a simple web application that generates random lottery numbers and a jok
 ├── 📂 static
 │   ├── 📄 styles.css  # Custom styling
 └── 📄 README.md       # Documentation
+'''
 
 ## Installation & Setup
 ### Prerequisites
